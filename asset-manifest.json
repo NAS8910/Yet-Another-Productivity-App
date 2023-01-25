@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Yet-Another-Productivity-App/static/css/main.eaa76a93.css",
+    "main.js": "/Yet-Another-Productivity-App/static/js/main.098c0644.js",
+    "static/media/image 2.svg": "/Yet-Another-Productivity-App/static/media/image 2.975ae91549a0044e615b.svg",
+    "static/media/logo.jpg": "/Yet-Another-Productivity-App/static/media/logo.92da72f5cc48cff784be.jpg",
+    "static/media/image 1.svg": "/Yet-Another-Productivity-App/static/media/image 1.bd1780fea2e8b4dc123b.svg",
+    "static/media/image 3.svg": "/Yet-Another-Productivity-App/static/media/image 3.bcd9aff9d0628350e94c.svg",
+    "static/media/drinkWaterAnimation.gif": "/Yet-Another-Productivity-App/static/media/drinkWaterAnimation.d1a70c549f972ce0665e.gif",
+    "static/media/Yapa Logo.svg": "/Yet-Another-Productivity-App/static/media/Yapa Logo.c08511de5911f4fa895b.svg",
+    "static/media/empty.svg": "/Yet-Another-Productivity-App/static/media/empty.4dfcbd04abf9e54a2fc4.svg",
+    "static/media/add_note.svg": "/Yet-Another-Productivity-App/static/media/add_note.5be25dca597a21542478.svg",
+    "static/media/liquid-cheese.svg": "/Yet-Another-Productivity-App/static/media/liquid-cheese.bc90b37d23afeb2db402.svg",
+    "static/media/Home.svg": "/Yet-Another-Productivity-App/static/media/Home.5b1156df15ebefb9621946b16cece1d7.svg",
+    "index.html": "/Yet-Another-Productivity-App/index.html",
+    "main.eaa76a93.css.map": "/Yet-Another-Productivity-App/static/css/main.eaa76a93.css.map",
+    "main.098c0644.js.map": "/Yet-Another-Productivity-App/static/js/main.098c0644.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaa76a93.css",
+    "static/js/main.098c0644.js"
+  ]
+}
