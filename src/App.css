@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  font-family: "Ubuntu", sans-serif;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* app */
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* main  */

@@ -1,0 +1,482 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+  transition: all 0.5s;
+}
+
+.App {
+  /* Colors declaration */
+  /* --dark-grey: #1a1a1a;
+  --medium-grey: #1c1c1c;
+  --grey: #2c2c2c;
+  --medium-light-grey: #3c3c3c;
+  --light-grey: #808080;
+  --green: #30a64e;
+  --white: #f0f0f0;
+  --gold: #ffdd55;
+  --orange: #ff922d; */
+  overflow-y: scroll;
+  background-color: var(--background1);
+}
+
+.Main-dashboard-bg {
+  background-color: var(--background1);
+}
+
+.main-dashboard {
+  display: flex;
+  flex: 1;
+  overflow: auto;
+  --navbarWidth: 21vw;
+  --accountWidth: 5vw;
+  background-color: var(--background1);
+  /* background-image: url(./images/water-tornado.svg); */
+  /* background-image: url(./images/protruding-squares.svg); */
+  /* flex-direction: column; */
+  /* height: 100%; */
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  /* variable for navbar-Width */
+  /* --navbarWidth: 400px; */
+  width: var(--navbarWidth);
+  height: 100%;
+  background: var(--background2);
+  /* transform: rotate(180deg); */
+  box-shadow: 2px 2px 4px rgba(254, 254, 254, 0.3);
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+}
+
+.yapa-logo-dash {
+  margin: 40px auto;
+}
+
+.nav-link {
+  display: flex;
+  height: 60px;
+  /* width: 100%; */
+  background-color: inherit;
+  border: 0;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  margin: 0.4rem 0;
+  padding: .5rem 1rem .5rem 3rem;
+  /* justify-content: space-evenly; */
+  /* margin: 6px 0; */
+  color: var(--text-primary);
+  align-items: center;
+  text-align: left;
+  transition: none;
+}
+
+.navbar-link-name {
+  color: var(--text-primary);
+  align-items: center;
+}
+
+.navbar-icon {
+  /* position: absolute; */
+  margin-left: 2rem;
+}
+
+.nav-link:hover {
+  background-color: var(--hover);
+  border: none;
+  outline: none;
+}
+
+.nav-link:focus {
+  /* font-size: 10rem; */
+  background-color: var(--accent1);
+  color: var(--background1);
+}
+
+.nav-link:focus .navbar-items {
+  color: var(--background1);
+}
+
+/* .nav-link-name { */
+.navbar-links>p {
+  margin: 0 2rem;
+  text-align: left;
+  color: inherit;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.dashboard-center {
+  display: flex;
+  flex-direction: column;
+  margin-left: var(--navbarWidth);
+  /* calc(var(--a) + 7px) */
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* width: 1047px; */
+  /* min-height: min-content; */
+  /* width: calc(var(--variable-width) + 20px); */
+  --centerWidth: calc(var(--navbarWidth) + var(--accountWidth));
+  width: calc(100vw - var(--centerWidth));
+}
+
+.user-info {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+
+/* 
+.quotes-container {
+  animation-delay: 1s;
+} */
+
+.quotes {
+  display: flex;
+  /* width: 100%; */
+  justify-content: center;
+  align-items: center;
+  margin: 20px 27px 0;
+  background-image: url(./images/liquid-cheese.svg);
+  background-size: cover;
+  /* background: var(--grey); */
+  /* background-image: url(./images/protruding-squares.svg); */
+  background-position: center;
+  border-radius: 15px;
+  animation: background-moving 1s forwards;
+  animation-delay: 0.2s;
+  /* animation: background-moving 3s forwards; */
+  /* animation: background-moving 5s infinite; */
+}
+
+.on-quotes-refresh {
+  display: flex;
+  /* width: 100%; */
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/liquid-cheese.svg);
+  background-size: cover;
+  /* background: var(--grey); */
+  /* background-image: url(./images/protruding-squares.svg); */
+  background-position: center;
+  animation-delay: 0.2s;
+  animation: background-moving 1s forwards;
+}
+
+@keyframes background-moving {
+  from {
+    background-position: center;
+  }
+
+  50% {
+    transform: scale(0.9);
+    background-position: 0 1px;
+  }
+}
+
+/* .quotes:hover { */
+/* outline: 2px solid var(--white); */
+/* animation: background-moving 1s forwards;
+  animation-delay: 0.2s; */
+/* background-position: 20px; */
+/* } */
+
+/* .quotes::after {
+  content: "";
+  background-image: url(./images/hollowed-boxes.svg);
+  height: fit-content; 
+  background-size: cover;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  bottom: 0px;
+  left: var(--navbarWidth);
+  opacity: 0.75;
+} */
+
+.quote-heading {
+  position: relative;
+  color: var(--text-primary);
+  margin: 10px;
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 1.5rem;
+}
+
+.quote-text {
+  position: relative;
+  font-size: 2rem;
+  color: var(--background1);
+  /* line-height: 2em; */
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 600;
+  font-family: "Cormorant", serif;
+  /* font-family: 'Handlee', cursive; */
+  font-style: italic;
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  /* font-weight: 500; */
+  /* text-decoration: double; */
+  text-align: center;
+  margin: 20px 20px;
+  /* width: 100%; */
+}
+
+.fa-solid {
+  color: var(--background1);
+}
+
+.refresh-btn-section {
+  position: absolute;
+  right: 5px;
+  bottom: 3px;
+}
+
+.refresh-svg-btn {
+  cursor: pointer;
+  transition-delay: 0.2s;
+  margin: 0 2px 2px 2px;
+}
+
+.refresh-svg-btn:hover {
+  transition-property: transform;
+  transform: rotate(180deg);
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  /* overflow-x: auto; */
+  /* overflow-x: 10px; */
+  margin: 0 15px 0;
+  /* max-width: 1000px; */
+  /* overflow: -moz-scrollbars-none; */
+}
+
+.play-video {
+  background-color: var(--background1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.play-video:hover {
+  transition-property: background-color;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/* .cards-container::-webkit-scrollbar {
+  width: 0;
+  display: none;
+}
+
+*/
+
+.scroll-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+  animation-delay: 1.5s;
+}
+
+.cards-container>button {
+  position: sticky;
+  left: 0;
+  right: 0;
+  width: 40px !important;
+  border: none;
+  background: var(--background2);
+  color: white;
+  cursor: pointer;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+.cards-container>button:hover {
+  background: var(--background2);
+}
+
+/* .cards-scroll {
+  display: flex;
+  overflow: auto;
+} */
+
+.cards-video {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background1);
+  border-radius: 0 10px;
+  align-items: center;
+  justify-content: center;
+  width: 960px;
+  height: 640px;
+}
+
+.video-cards {
+  color: var(--text-primary);
+  width: 480px;
+}
+
+.cards-background {
+  /* width: 300px;
+  height: 180px; */
+  display: flex;
+  background-color: var(--background1);
+  border: 2px var(--text-primary) solid;
+  border-radius: 0 10px;
+  margin: 20px 15px;
+  /* overflow-x: scroll; */
+}
+
+.dashboard-account {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+
+  /* variable for Account Width */
+  width: var(--accountWidth);
+  height: 100vh;
+  background: var(--background2);
+  /* background-image: url(./images/endless-constellation-without-lines.svg); */
+  box-shadow: -2px -2px 4px rgba(254, 254, 254, 0.3);
+}
+
+.account-avatar {
+  margin: 20px auto 0;
+  padding: 0;
+}
+
+.account-avatar-button {
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  padding: 0;
+  margin: 0;
+  outline: 4px solid var(--accent2);
+  cursor: pointer;
+}
+
+.account-avatar-btn {
+  border-radius: 100%;
+  padding: 0;
+  margin: 0;
+  outline: 4px solid var(--accent2);
+}
+
+/* .account-avatar>button:hover { */
+#basic-button:hover {
+  transition-duration: 0.5s;
+  border-radius: 100%;
+  /* padding: 0;
+  margin: 0; */
+  outline: 4px solid var(--limited);
+}
+
+.account-options {
+  margin: 20px auto 0;
+}
+
+.dashboard-popups {
+  display: flex;
+  /* position:absolute;
+  right: 100px;
+  top: 150px; */
+}
+
+.water-popup {
+  position: absolute;
+  right: 100px;
+  top: 150px;
+  animation: popup 2s infinite;
+}
+
+@keyframes popup {
+  from {
+    right: 0px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 100%;
+  }
+
+  to {
+    right: 100px;
+  }
+}
+
+/* Water Page CSS */
+
+.water-background {
+  background-image: url(./images/drinkWaterAnimation.gif);
+  width: 400px;
+  height: 35rem;
+  margin: 0 10% 0;
+}
+
+.fact-heading {
+  font-size: 2rem;
+  color: whitesmoke;
+  /* margin-top: 10px; */
+}
+
+.fact-1 {
+  font-size: 1.5rem;
+  color: wheat;
+  margin: 10px 10px 0 10px;
+}
+
+.fact-2 {
+  /* padding: 0; */
+  font-size: 1.5rem;
+  color: wheat;
+  margin: 450px 10px 0 10px;
+}
+
+.dash-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-changer {
+  margin: 2rem 0;
+  transition: all 0.5s;
+}
+
+.youtube-video {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem auto 2rem;
+}

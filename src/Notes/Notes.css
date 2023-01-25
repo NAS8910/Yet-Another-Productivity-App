@@ -1,0 +1,207 @@
+* {
+  list-style-type: none;
+}
+
+/* .Notes-app button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: var(--accent1);
+} */
+.no-notes {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: .5rem;
+}
+
+.display-notes {
+  display: flex;
+  /* margin: 1rem 0; */
+}
+
+.notes-search-container {
+  width: 100%;
+  /* float: left; */
+  /* margin: 0 15rem 0 0; */
+  margin-left: 50rem;
+  position: sticky;
+}
+
+.notes-search {
+  letter-spacing: 1px;
+  border: none;
+  background: none;
+  /* position: absolute; */
+  /* width: 100%; */
+  border-bottom: 0.15em solid var(--accent1);
+  outline: none;
+  padding: 1rem;
+  margin: 1rem 0.5rem;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+}
+
+.notes-search::placeholder {
+  opacity: 0.5;
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  letter-spacing: 1px;
+}
+
+.add-note-button {
+  /* margin: auto auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: var(--accent1); */
+  border: 0.1em dashed var(--text-primary);
+  width: 10em;
+  height: 10em;
+  margin: 0 1em 0;
+  /* padding: 50px; */
+  transition-duration: 0.3s;
+  /* margin: 20px; */
+}
+
+.add-note-button:hover {
+  cursor: pointer;
+  background-color: var(--background2);
+  transform: scale(1.1);
+  transition: transform;
+  transition-duration: 0.3s;
+}
+
+.note-item {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: left; */
+  /* border: 0.3em solid var(--text-primary); */
+  /* width: 10em; */
+  /* height: 10em; */
+  padding: 2rem 3rem 1rem 1rem;
+  background-color: var(--accent1);
+  color: var(--background1);
+  margin: 0 1rem;
+  /* padding: 30px; */
+}
+
+.add-note-details {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 1.5rem 2rem;
+  /* border-radius: 0; */
+}
+
+.add-note-title {
+  border: 0;
+  outline: 0;
+  border-bottom: 0.07em solid var(--accent1);
+  border-radius: 0;
+  background: none;
+  color: var(--text-primary);
+  width: 30rem;
+  padding: 1rem .5rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.add-note-textarea {
+  /* display: flex; */
+  border: 0;
+  outline: 0;
+  border-bottom: 0.12em solid var(--accent1);
+  border-radius: 0;
+  background: none;
+  color: var(--text-primary);
+  width: 30rem;
+  margin: 1rem 0;
+  padding: 1rem .5rem;
+  font-size: 1.3rem;
+}
+
+.add-note-details input::placeholder {
+  color: var(--text-primary);
+  /* padding: .5rem; */
+  opacity: 0.5;
+  font-size: 1.5rem;
+}
+
+.add-note-details textarea::placeholder {
+  color: var(--text-primary);
+  /* padding: .5rem; */
+  opacity: 0.5;
+  font-size: 1.3rem;
+}
+
+.add-note-details button {
+  /* margin-top: 1rem; */
+  color: var(--background2);
+  background-color: var(--accent1);
+}
+
+.add-a-note-button {
+  background-color: var(--accent1);
+  color: var(--background1);
+  padding: .7rem;
+  border-radius: .5rem;
+}
+
+.notes-saved {
+  margin: 2rem 2rem 1rem;
+  /* padding: 0 1rem; */
+}
+
+.notes-list-display {
+  display: flex;
+}
+
+.plus-note-button {
+  display: flex;
+  margin: 2rem 1.5rem;
+  border-radius: 100%;
+  background-color: var(--accent1);
+  width: 2rem;
+  height: 2rem;
+  color: var(--background1);
+  font-weight: 900;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.5);
+  /* font-size: 3rem; */
+  /* color: aqua; */
+}
+
+.plus-note-button-container {
+  margin: 3rem 1rem;
+}
+
+.notes-action-buttons {
+  display: flex;
+  margin: 2rem auto 0;
+  width: 100%;
+  justify-content: flex-start
+}
+
+.notes-edit-button {
+  margin-left: 1rem;
+}
+
+.empty-svg-div {
+  background-image: url(./images/empty.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 10rem; */
+  height: 20rem;
+}
+
+.addnote-svg-div {
+  background-image: url(./images/add_note.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* width: 10rem; */
+  height: 20rem;
+}

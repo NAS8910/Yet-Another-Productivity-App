@@ -1,0 +1,92 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "tpQVQxBbkdoGNfps6tWAXOE6ViY",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "-86LBPKaCy1zHZDF8wwjMFDF7JQ",
+      "id": "wnHW6o8WMas",
+      "snippet": {
+        "publishedAt": "2018-06-11T01:54:41Z",
+        "channelId": "UCgkKA7xEOoBQNpC5TJxPLiw",
+        "title": "NO EXCUSES - Best Motivational Video",
+        "description": "http://benlionelscott.com/subscribe 👈 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘁𝗵𝗶𝘀 𝘃𝗶𝗱𝗲𝗼 𝗮𝗻𝗱 𝗮𝘂𝗱𝗶𝗼 𝘃𝗲𝗿𝘀𝗶𝗼𝗻 𝗯𝘆 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗶𝗻𝗴 𝗼𝗻 𝗣𝗮𝘆𝗣𝗮𝗹, 𝗽𝗹𝘂𝘀 𝗲𝗮𝗿𝗹𝘆 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼 𝗮𝗹𝗹 𝗻𝗲𝘄 𝘃𝗶𝗱𝗲𝗼𝘀, 𝗮𝗻𝗱 𝗲𝘅𝗰𝗹𝘂𝘀𝗶𝘃𝗲 𝘃𝗶𝗱𝗲𝗼𝘀.  To sign up & more info, go to the link.\n \n\n\nDownload this video and audio: http://benlionelscott.com/p/?v=wnHW6o8WMas\n\nhttp://benlionelscott.com/IG 👈 Follow on Instagram for daily motivational videos & photos\n\n\nFootage by: https://www.instagram.com/dario_silvestri \n\nMusic\nLinkin Park - In The End (Tommee Profitt Cover)\n\nSpeakers\nJocko Willink\nTyrese Gibson\nJohn Maxwell\nEric Thomas\n\n...\n\nIf there are any issues, questions or concerns, please contact: me(at)benlionelscott.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wnHW6o8WMas/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wnHW6o8WMas/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wnHW6o8WMas/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wnHW6o8WMas/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wnHW6o8WMas/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Ben Lionel Scott",
+        "tags": [
+          "ben lionel scott",
+          "motivation",
+          "motivational",
+          "inspirational",
+          "inspiration",
+          "success",
+          "training",
+          "whatever",
+          "it",
+          "takes"
+        ],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "NO EXCUSES - Best Motivational Video",
+          "description": "http://benlionelscott.com/subscribe 👈 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝘁𝗵𝗶𝘀 𝘃𝗶𝗱𝗲𝗼 𝗮𝗻𝗱 𝗮𝘂𝗱𝗶𝗼 𝘃𝗲𝗿𝘀𝗶𝗼𝗻 𝗯𝘆 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗶𝗻𝗴 𝗼𝗻 𝗣𝗮𝘆𝗣𝗮𝗹, 𝗽𝗹𝘂𝘀 𝗲𝗮𝗿𝗹𝘆 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼 𝗮𝗹𝗹 𝗻𝗲𝘄 𝘃𝗶𝗱𝗲𝗼𝘀, 𝗮𝗻𝗱 𝗲𝘅𝗰𝗹𝘂𝘀𝗶𝘃𝗲 𝘃𝗶𝗱𝗲𝗼𝘀.  To sign up & more info, go to the link.\n \n\n\nDownload this video and audio: http://benlionelscott.com/p/?v=wnHW6o8WMas\n\nhttp://benlionelscott.com/IG 👈 Follow on Instagram for daily motivational videos & photos\n\n\nFootage by: https://www.instagram.com/dario_silvestri \n\nMusic\nLinkin Park - In The End (Tommee Profitt Cover)\n\nSpeakers\nJocko Willink\nTyrese Gibson\nJohn Maxwell\nEric Thomas\n\n...\n\nIf there are any issues, questions or concerns, please contact: me(at)benlionelscott.com"
+        },
+        "defaultAudioLanguage": "en-GB"
+      },
+      "contentDetails": {
+        "duration": "PT3M20S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "status": {
+        "uploadStatus": "processed",
+        "privacyStatus": "public",
+        "license": "youtube",
+        "embeddable": true,
+        "publicStatsViewable": false,
+        "madeForKids": false
+      },
+      "statistics": {
+        "viewCount": "62691658",
+        "likeCount": "1832711",
+        "favoriteCount": "0",
+        "commentCount": "15356"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
